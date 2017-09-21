@@ -1,6 +1,8 @@
 # phxpogo-userscripts
 
-User scripts that can be used with Tampermonkey (for Chrome), and assumingly can be used with Greasemonkey (for Firefox).
+User scripts that can be used with [Tampermonkey (for Chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), and assumingly can be used with [Greasemonkey (for Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+
+Just install the browser plugin and click the install links below.
 
 These scripts enhance the pogo map
 
