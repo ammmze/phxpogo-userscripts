@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PhxPogoMap - East Valley
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://phxpogomap.com/*/map
@@ -169,8 +169,9 @@ function EastValleyMonkey () {
                     var results = {};
                     for (var i = 0; i < jqXhrs.length; i++) {
                         var result = arguments[i][0];
-                        var pokemons = results.pokemon ? {pokemons: results.pokemons.concat(arguments[i][0].pokemons)} : {};
-                        $.extend(true, results, result, pokemons);
+                        var pokemons = results.pokemons ? {pokemons: results.pokemons.concat(arguments[i][0].pokemons)} : {};
+                        var pokestops = results.pokestops ? {pokestops: results.pokestops.concat(arguments[i][0].pokestops)} : {};
+                        $.extend(true, results, result, pokemons, pokestops);
                     }
                     deferred.resolve(results);
                 });
