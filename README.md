@@ -8,7 +8,7 @@ These scripts enhance the pogo map
 
 ### gymNameFilter ([install](https://github.com/ammmze/phxpogo-userscripts/raw/master/gymNameFilter.user.js))
 
-Adds another filter option that allows filtering based on the gym name. For example, a value of "starbucks,get your level badge" would show any gym with the word "starbucks" or the phrase "get your level badge". The logic here is farily simplistic. We're just splitting the phrases on the comma and then each phrase becomes a regular expression to match against gym names. You'll probably notice this will pick other starbucks gyms that probably don't count as sponsors (they don't have the sponsor badge). If you want exact matching, you could use something like "^(get your level badge|starbucks)$"
+Adds another filter option that allows filtering based on the gym name. The filter uses regular expressions to match names, so you can match multiple names, for example you could use something like "^(get your level badge|starbucks)$" to match all starbucks and sprint gyms.
 
 ### The following scripts are no longer necessary now that we have the pro map
 
