@@ -8,7 +8,7 @@ These scripts enhance the pogo map
 
 ### gymNameFilter ([install](https://github.com/ammmze/phxpogo-userscripts/raw/master/gymNameFilter.user.js))
 
-Adds another filter option that allows filtering based on the gym name. The filter uses regular expressions to match names, so you can match multiple names, for example you could use something like "^(get your level badge|starbucks)$" to match all starbucks and sprint gyms.
+Adds another filter option that allows filtering based on the gym name. The filter uses regular expressions to match names, so you can match multiple names, for example you could use something like `^(get your level badge|starbucks)$` to match all starbucks and sprint gyms.
 
 ### The following scripts are no longer necessary now that we have the pro map
 
